@@ -1,4 +1,4 @@
-package guru.springframework.spring5webapp;
+package guru.springframework.spring5Webapp;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
