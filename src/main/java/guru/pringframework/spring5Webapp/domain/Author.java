@@ -1,0 +1,20 @@
+package guru.pringframework.spring5Webapp.domain;
+
+import javax.persistence.GeneratedValue;
+import java.util.Set;
+
+public class Author {
+    @GeneratedValue
+    private Long id;
+
+    private String firstName;
+    private String lastName;
+    private Set<Book> books;
+
+
+    public Author(String firstName, String lastName, Set<Book> books) {
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.books = books;
+    }
+}
